@@ -1,0 +1,36 @@
+.root {
+    -fx-background-color: #263146;
+    -fx-font-family: "Century Gothic";
+}
+
+#start {
+
+}
+
+.button {
+    -fx-background-color: #6392C1;
+}
+
+.text-field {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, #EBEBEB;
+    -fx-background-radius: 5px;
+}
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, #EBEBEB;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+    -fx-opacity: 0.4;
+}
+
+.label{
+    -fx-text-fill: #EBEBEB;
+    -fx-font-size: 25px;
+}
+
+.about-label {
+    -fx-font-size: 12px;
+}
